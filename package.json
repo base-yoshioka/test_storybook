@@ -20,6 +20,13 @@
     "not ie <= 8"
   ],
   "devDependencies": {
+    "@storybook/addon-actions": "^3.4.11",
+    "@storybook/addon-centered": "^3.4.11",
+    "@storybook/addon-knobs": "^3.4.11",
+    "@storybook/addon-links": "^3.4.11",
+    "@storybook/addon-notes": "^3.4.11",
+    "@storybook/addon-options": "^3.4.11",
+    "@storybook/addon-viewport": "^3.4.11",
     "@storybook/vue": "^3.4.11",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -30,6 +37,7 @@
     "file-loader": "^1.1.4",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
+    "storybook-addon-vue-info": "^0.6.1",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",

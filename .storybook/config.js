@@ -1,9 +1,7 @@
 import { configure } from '@storybook/vue'
 
-import Vue from 'vue'
-
-function loadStories () {
-  require('./../src/stories')
+const loadStories = () => {
+  require('./../src/stories/index')
 }
 
 configure(loadStories, module)
